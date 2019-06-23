@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devon - Log In</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <!-- Ionicons Icons -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!-- Google Fonts -->
+    <link href="assets/fonts/main-fonts.css" rel="stylesheet">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <% include partials/header %>
+<main>
+    <!-- Forms -->
+    <div class="sign-form-wr">
+        <div class="container">
+            <div class="sign-form-inner">
+                <header class="sign-header">
+                    <div class="log-in tab active" data-form="log-in-form">Login</div>
+                    <div class="sign-up tab" data-form="sign-up-form">Cadastrar</div>
+                </header>
+                <!-- Log In -->
+                <div class="form-wr log-in-form active">
+                    <p class="title">Login</p>
+                    <form>
+                        <input type="text" name="login" placeholder="E-mail" class="login" required>
+                        <input type="password" name="password" placeholder="Senha" class="password" required>
+                        <p class="submit">
+                            <input type="submit" value="Entrar" class="submit-btn">
+                            <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+                        </p>
+                    </form>
+                    <p class="lines section-title">Ou</p>
+                    <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Logar com facebook</a>
+                </div>
+                <!-- End Log In -->
+                <!-- Sign In -->
+                <div class="form-wr sign-up-form">
+                    <p class="title">Cadastrar</p>
+                    <form>
+                        <input type="text" name="login" placeholder="Usuário" class="login" required>
+                        <input type="password" name="password" placeholder="Senha" class="password" required>
+                        <input type="email" name="login" placeholder="E-mail" class="login" required>
+                        <input type="text" name="login" placeholder="Cidade" class="login" required>
+                        <p class="submit">
+                            <input type="submit" value="Criar conta" class="submit-btn">
+                        </p>
+                    </form>
+                    <p class="lines section-title">Ou</p>
+                    <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Logar com facebook</a>
+                </div>
+                <!-- End Sign In -->
+            </div>
+        </div>
+    </div>
+    <!-- End Forms -->
+</main>
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="soc-icons-wrap">
+            <a href="#" class="soc-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="soc-icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        </div>
+        <p class="copyright">&#169; 2018 Devon</p>
+    </div>
+</footer>
+<!-- End Footer -->
+<!-- Jquery core -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- Slick Slider Core -->
+<script src="assets/slick/slick.js"></script>
+<!-- All Sliders Initialization -->
+<script src='assets/js/slider.js'></script>
+<!-- Custom -->
+<script src='assets/js/common.js'></script>
+</body>
+</html>
