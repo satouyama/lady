@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devon - Home Page 03</title>
+    <title>Sexy Lady</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
@@ -21,576 +22,604 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-<!-- Navbar -->
-<% include partials/header %>
-<!-- End Navbar -->
-<main>
-  		<!-- Hero -->
-		<section class="hero over-header" style="background-image: url('assets/img/placeholder/placeholder_1920x1200.jpg')">
-			<div class="container">
-				<div class="over-header-inner">
-					<h1 class="title">Encontrar </h1>
-					<form class="searh-model">
-						<span class="select-item">
-							<select name="height" id="height" class="selectpicker">
-								<option value="0">Altura</option>
-								<option value="150">1.50</option>
-								<option value="155">1.55</option>
-								<option value="160">1.60</option>
-							</select>
-						</span>
-						<span class="select-item">
-							<select name="waist" id="waist" class="selectpicker">
-								<option value="0">Cintura</option>
-								<option value="50">50</option>
-								<option value="55">55</option>
-								<option value="60">60</option>
-							</select>
-						</span>
-						<span class="select-item">
-							<select name="bust" id="bust" class="selectpicker">
-								<option value="0">Busto</option>
-								<option value="45">45</option>
-								<option value="50">50</option>
-								<option value="55">55</option>
-							</select>
-						</span>
-						<span class="select-item">
-							<select name="age" id="age" class="selectpicker">
-									<option value="0">Idade</option>
-								<option value="18">18</option>
-								<option value="19">19</option>
-								<option value="20">20</option>
-								<option value="20">22</option>
-							</select>
-						</span>
-						<span class="select-item">
-							<select name="hair" id="hair" class="selectpicker">
-								<option value="hair">Cabelo</option>
-								<option value="blonde">Loiro</option>
-								<option value="black">Preto</option>
-								<option value="brown">Castanho</option>
-							</select>
-						</span>
-						<span class="select-item">
-							<select name="age" id="eyes" class="selectpicker">
-								<option value="0"> Olhos</option>
-								<option value="blue">Azul</option>
-								<option value="green">Verde</option>
-								<option value="brown">Castanho</option>
-							</select>
-						</span>
-						<input type="submit" value="Procurar" class="submit">
-					</form>
-				</div>
-			</div>
-		</section>
-		<!-- End Hero -->
-    <!-- Categories List -->
-    		<!-- Models List -->
-		<div class="container-fluid sort-models-wrapper columns-3 columns">
-			<div class="row">
-				<div class="col-lg-8 col-xl-7 content-wrapper">
-                    
-                    
-                    <% include partials/filter %>
+    <!-- Navbar -->
+    <% include partials/header %>
+    <!-- End Navbar -->
+    <main>
+        <!-- Hero -->
+        <section class="hero over-header"
+            style="background-image: url('assets/img/placeholder/placeholder_1920x1200.jpg')">
+            <div class="container">
+                <div class="over-header-inner">
+                    <h1 class="title">Encontrar </h1>
+                    <form class="searh-model">
+                        <span class="select-item">
+                            <select name="height" id="height" class="selectpicker">
+                                <option value="estado">Estado</option>
+                                <option value="ac">Acre</option>
+                                <option value="al">Alagoas</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ap">Amapá</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="es">Espírito Santo</option>
+                                <option value="go">Goiás</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="pa">Pará</option>
+                                <option value="pb">Paraíba</option>
+                                <option value="pr">Paraná</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pi">Piauí</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="rr">Roraima</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="se">Sergipe</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="to">Tocantins</option>
+                            </select>
+                        </span>
+                        <span class="select-item">
+                            <select name="waist" id="waist" class="selectpicker">
+                                <option value="0">Cintura</option>
+                                <option value="50">50</option>
+                                <option value="55">55</option>
+                                <option value="60">60</option>
+                            </select>
+                        </span>
+                        <span class="select-item">
+                            <select name="bust" id="bust" class="selectpicker">
+                                <option value="0">Busto</option>
+                                <option value="45">45</option>
+                                <option value="50">50</option>
+                                <option value="55">55</option>
+                            </select>
+                        </span>
+                        <span class="select-item">
+                            <select name="age" id="age" class="selectpicker">
+                                <option value="0">Idade</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="20">22</option>
+                            </select>
+                        </span>
+                        <span class="select-item">
+                            <select name="hair" id="hair" class="selectpicker">
+                                <option value="hair">Cabelo</option>
+                                <option value="blonde">Loiro</option>
+                                <option value="black">Preto</option>
+                                <option value="brown">Castanho</option>
+                            </select>
+                        </span>
+
+                        <input type="submit" value="Procurar" class="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+        <!-- Categories List -->
+        <!-- Models List -->
+        <div class="container-fluid sort-models-wrapper columns-3 columns">
+            <div class="row">
+                <div class="col-lg-8 col-xl-7 content-wrapper">
 
 
-					<div class="sort-models">
-						<div class="row justify-content-center">
-							<article class="col-sm-6 col-md-4">
-								<a href="/perfil" class="item-wr">
-									<div class="model-item" style="background-image: url('assets/img/7.jpg')">
-										<div class="model-info">
-											<p>Cidade <span>Paris</span></p>
-											<p>Horários <span>10:00h à 22:00h</span></p>
-											<p>Cintura: <span>60</span></p>
-											<p>Idade: <span>29</span></p>
-											
-											<p class="rating">
-												<i class="fa fa-star active" aria-hidden="true"></i>
-												<i class="fa fa-star active" aria-hidden="true"></i>
-												<i class="fa fa-star active" aria-hidden="true"></i>
-												<i class="fa fa-star active" aria-hidden="true"></i>
-												<i class="fa fa-star active" aria-hidden="true"></i>
-											</p>
-										</div>
-									</div>
-									<h3 class="title">Luanakitty75</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                    <!-- <% include partials/filter %> -->
+
+
+                    <div class="sort-models">
+                        <div class="row justify-content-center">
+                            <article class="col-sm-6 col-md-4">
+                                <a href="/perfil" class="item-wr">
+                                    <div class="model-item" style="background-image: url('assets/img/7.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Jena Stain</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Luanakitty75</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Bella Ring</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Jena Stain</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Amanda Grace</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Bella Ring</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Julia Strill</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Amanda Grace</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Roberta Green</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                    	<div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Julia Strill</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Polli Aston</h3>
-								</a>
-							</article>	
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                    	<div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Roberta Green</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Natali Spencer</h3>
-								</a>
-							</article>
-							<article class="col-sm-6 col-md-4">
-								<a href="#" class="item-wr">
-                                        <div  class="model-item" style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
-                                            <div class="model-info">
-                                                <p>Cidade <span>Paris</span></p>
-                                                <p>Horários <span>10:00h à 22:00h</span></p>
-                                                <p>Cintura: <span>60</span></p>
-                                                <p>Idade: <span>29</span></p>
-                                                
-                                                <p class="rating">
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                    <i class="fa fa-star active" aria-hidden="true"></i>
-                                                </p>
-                                            </div>
+                                    </div>
+                                    <h3 class="title">Polli Aston</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
                                         </div>
-									<h3 class="title">Selena Trade</h3>
-								</a>
-							</article>
-						</div>
-						<p class="text-center">
-							<button class="btn-classic load-more">Ver Mais</button>
-						</p>
-					</div>
-				</div>
-			
-			</div>
-		</div>
-		<!-- End Models List -->
-    <!-- End Categories List -->
-    <!-- Review -->
-    <!--<div class="container-fluid full-screen-quote">-->
+                                    </div>
+                                    <h3 class="title">Natali Spencer</h3>
+                                </a>
+                            </article>
+                            <article class="col-sm-6 col-md-4">
+                                <a href="#" class="item-wr">
+                                    <div class="model-item"
+                                        style="background-image: url('assets/img/placeholder/placeholder_900x500.jpg')">
+                                        <div class="model-info">
+                                            <p>Cidade <span>Paris</span></p>
+                                            <p>Horários <span>10:00h à 22:00h</span></p>
+                                            <p>Cintura: <span>60</span></p>
+                                            <p>Idade: <span>29</span></p>
+
+                                            <p class="rating">
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <h3 class="title">Selena Trade</h3>
+                                </a>
+                            </article>
+                        </div>
+                        <p class="text-center">
+                            <button class="btn-classic load-more">Ver Mais</button>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Models List -->
+        <!-- End Categories List -->
+        <!-- Review -->
+        <!--<div class="container-fluid full-screen-quote">-->
         <!--<div class="row">-->
-            <!--<div class="col-md-6">-->
-                <!--<div class="full-screen-quote-text">-->
-                    <!--<p class="quotes">“</p>-->
-                    <!--<p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean-->
-                        <!--sollicitudin, lorem quis bibendum auctor, nisi elit conse quat ipsum, nec sagittis sem nibh id elit duis sed.-->
-                    <!--</p>-->
-                    <!--<address class="author">Jena Stain</address>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-md-6 author-img-wr">-->
-                <!--<img src="assets/img/placeholder/placeholder_900x500.jpg" alt="" class="author-img">-->
-            <!--</div>-->
+        <!--<div class="col-md-6">-->
+        <!--<div class="full-screen-quote-text">-->
+        <!--<p class="quotes">“</p>-->
+        <!--<p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean-->
+        <!--sollicitudin, lorem quis bibendum auctor, nisi elit conse quat ipsum, nec sagittis sem nibh id elit duis sed.-->
+        <!--</p>-->
+        <!--<address class="author">Jena Stain</address>-->
         <!--</div>-->
-    <!--</div>-->
-    <!-- End Review -->
-    <!-- Popular Models List -->
-    <!--<section class="container popular-models model-row-wrap">-->
+        <!--</div>-->
+        <!--<div class="col-md-6 author-img-wr">-->
+        <!--<img src="assets/img/placeholder/placeholder_900x500.jpg" alt="" class="author-img">-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!-- End Review -->
+        <!-- Popular Models List -->
+        <!--<section class="container popular-models model-row-wrap">-->
         <!--<h2 class="section-title lines">Popular Models</h2>-->
         <!--<article class="model-row">-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
-                    <!--<a href="#" class="img-wr">-->
-                        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xl-6">-->
-                    <!--<div class="row-model-info">-->
-                        <!--<h3 class="title">-->
-                            <!--<a href="#">Alexis Rane</a>-->
-                        <!--</h3>-->
-                        <!--<div class="model-attr">-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Height:</span>-->
-                                <!--<span class="attr-value">185</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Bust:</span>-->
-                                <!--<span class="attr-value">85</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Waist:</span>-->
-                                <!--<span class="attr-value">60</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Age:</span>-->
-                                <!--<span class="attr-value">17</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Heir:</span>-->
-                                <!--<span class="attr-value">Red</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Eyes:</span>-->
-                                <!--<span class="attr-value">Blue</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                        <!--<p class="rating">-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                        <!--</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr">-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr big">-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-            <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
+        <!--<a href="#" class="img-wr">-->
+        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="col-xl-6">-->
+        <!--<div class="row-model-info">-->
+        <!--<h3 class="title">-->
+        <!--<a href="#">Alexis Rane</a>-->
+        <!--</h3>-->
+        <!--<div class="model-attr">-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Height:</span>-->
+        <!--<span class="attr-value">185</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Bust:</span>-->
+        <!--<span class="attr-value">85</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Waist:</span>-->
+        <!--<span class="attr-value">60</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Age:</span>-->
+        <!--<span class="attr-value">17</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Heir:</span>-->
+        <!--<span class="attr-value">Red</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Eyes:</span>-->
+        <!--<span class="attr-value">Blue</span>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<p class="rating">-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr">-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr big">-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
         <!--</article>-->
         <!--<article class="model-row">-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
-                    <!--<a href="#" class="img-wr">-->
-                        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xl-6">-->
-                    <!--<div class="row-model-info">-->
-                        <!--<h3 class="title">-->
-                            <!--<a href="#">Alexis Rane</a>-->
-                        <!--</h3>-->
-                        <!--<div class="model-attr">-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Height:</span>-->
-                                <!--<span class="attr-value">185</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Bust:</span>-->
-                                <!--<span class="attr-value">85</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Waist:</span>-->
-                                <!--<span class="attr-value">60</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Age:</span>-->
-                                <!--<span class="attr-value">17</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Heir:</span>-->
-                                <!--<span class="attr-value">Red</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Eyes:</span>-->
-                                <!--<span class="attr-value">Blue</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                        <!--<p class="rating">-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                        <!--</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr">-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr big">-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-            <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
+        <!--<a href="#" class="img-wr">-->
+        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="col-xl-6">-->
+        <!--<div class="row-model-info">-->
+        <!--<h3 class="title">-->
+        <!--<a href="#">Alexis Rane</a>-->
+        <!--</h3>-->
+        <!--<div class="model-attr">-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Height:</span>-->
+        <!--<span class="attr-value">185</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Bust:</span>-->
+        <!--<span class="attr-value">85</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Waist:</span>-->
+        <!--<span class="attr-value">60</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Age:</span>-->
+        <!--<span class="attr-value">17</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Heir:</span>-->
+        <!--<span class="attr-value">Red</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Eyes:</span>-->
+        <!--<span class="attr-value">Blue</span>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<p class="rating">-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr">-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr big">-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
         <!--</article>-->
         <!--<article class="model-row">-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
-                    <!--<a href="#" class="img-wr">-->
-                        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xl-6">-->
-                    <!--<div class="row-model-info">-->
-                        <!--<h3 class="title">-->
-                            <!--<a href="#">Alexis Rane</a>-->
-                        <!--</h3>-->
-                        <!--<div class="model-attr">-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Height:</span>-->
-                                <!--<span class="attr-value">185</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Bust:</span>-->
-                                <!--<span class="attr-value">85</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Waist:</span>-->
-                                <!--<span class="attr-value">60</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Age:</span>-->
-                                <!--<span class="attr-value">17</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Heir:</span>-->
-                                <!--<span class="attr-value">Red</span>-->
-                            <!--</p>-->
-                            <!--<p class="attr-item">-->
-                                <!--<span class="attr-name">Eyes:</span>-->
-                                <!--<span class="attr-value">Blue</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                        <!--<p class="rating">-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                            <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
-                        <!--</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr">-->
-                        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-                <!--<div class="col-xl-2">-->
-                    <!--<p class="soc-icons-wr big">-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
-                        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
-                    <!--</p>-->
-                <!--</div>-->
-            <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-2 offset-xl-0">-->
+        <!--<a href="#" class="img-wr">-->
+        <!--<img src="assets/img/placeholder/placeholder_400x350.jpg" alt="">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="col-xl-6">-->
+        <!--<div class="row-model-info">-->
+        <!--<h3 class="title">-->
+        <!--<a href="#">Alexis Rane</a>-->
+        <!--</h3>-->
+        <!--<div class="model-attr">-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Height:</span>-->
+        <!--<span class="attr-value">185</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Bust:</span>-->
+        <!--<span class="attr-value">85</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Waist:</span>-->
+        <!--<span class="attr-value">60</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Age:</span>-->
+        <!--<span class="attr-value">17</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Heir:</span>-->
+        <!--<span class="attr-value">Red</span>-->
+        <!--</p>-->
+        <!--<p class="attr-item">-->
+        <!--<span class="attr-name">Eyes:</span>-->
+        <!--<span class="attr-value">Blue</span>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<p class="rating">-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-star active" aria-hidden="true"></i>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr">-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--<div class="col-xl-2">-->
+        <!--<p class="soc-icons-wr big">-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-android-favorite"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="icon ion-ios-email-outline"></i></a>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
         <!--</article>-->
-    <!--</section>-->
-    <!-- End Popular Models List -->
-    <!-- Last Post List -->
-    <!--<section class="container last-posts small">-->
+        <!--</section>-->
+        <!-- End Popular Models List -->
+        <!-- Last Post List -->
+        <!--<section class="container last-posts small">-->
         <!--<h2 class="section-title lines">Journal</h2>-->
         <!--<div class="row justify-content-center">-->
-            <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
-                <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
-                    <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
-                        <!--<div class="info">-->
-                            <!--<p class="post-btn">View post</p>-->
-                            <!--<p class="post-publish">-->
-                                <!--<span class="publish-date">Dec 25, 2017</span>-->
-                                <!--<span class="separator">·</span>-->
-                                <!--<span class="publish-time">1 Minute</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</figure>-->
-                    <!--<footer class="post-footer">-->
-                        <!--<p class="post-category">Agency</p>-->
-                        <!--<h3 class="post-title">Perfect Fashion Show</h3>-->
-                    <!--</footer>-->
-                <!--</a>-->
-            <!--</article>-->
-            <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
-                <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
-                    <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
-                        <!--<div class="info">-->
-                            <!--<p class="post-btn">View post</p>-->
-                            <!--<p class="post-publish">-->
-                                <!--<span class="publish-date">Dec 25, 2017</span>-->
-                                <!--<span class="separator">·</span>-->
-                                <!--<span class="publish-time">1 Minute</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</figure>-->
-                    <!--<footer class="post-footer">-->
-                        <!--<p class="post-category">Ashion</p>-->
-                        <!--<h3 class="post-title">Changing Style WIth Makeup</h3>-->
-                    <!--</footer>-->
-                <!--</a>-->
-            <!--</article>-->
-            <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
-                <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
-                    <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
-                        <!--<div class="info">-->
-                            <!--<p class="post-btn">View post</p>-->
-                            <!--<p class="post-publish">-->
-                                <!--<span class="publish-date">Dec 25, 2017</span>-->
-                                <!--<span class="separator">·</span>-->
-                                <!--<span class="publish-time">1 Minute</span>-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</figure>-->
-                    <!--<footer class="post-footer">-->
-                        <!--<p class="post-category">Agency</p>-->
-                        <!--<h3 class="post-title">Perfect Fashion Show</h3>-->
-                    <!--</footer>-->
-                <!--</a>-->
-            <!--</article>-->
+        <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
+        <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
+        <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
+        <!--<div class="info">-->
+        <!--<p class="post-btn">View post</p>-->
+        <!--<p class="post-publish">-->
+        <!--<span class="publish-date">Dec 25, 2017</span>-->
+        <!--<span class="separator">·</span>-->
+        <!--<span class="publish-time">1 Minute</span>-->
+        <!--</p>-->
         <!--</div>-->
-    <!--</section>-->
-    <!-- End Last Post List -->
-</main>
-<!-- Footer -->
-<footer class="site-footer">
-    <!--<div class="container">-->
+        <!--</figure>-->
+        <!--<footer class="post-footer">-->
+        <!--<p class="post-category">Agency</p>-->
+        <!--<h3 class="post-title">Perfect Fashion Show</h3>-->
+        <!--</footer>-->
+        <!--</a>-->
+        <!--</article>-->
+        <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
+        <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
+        <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
+        <!--<div class="info">-->
+        <!--<p class="post-btn">View post</p>-->
+        <!--<p class="post-publish">-->
+        <!--<span class="publish-date">Dec 25, 2017</span>-->
+        <!--<span class="separator">·</span>-->
+        <!--<span class="publish-time">1 Minute</span>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</figure>-->
+        <!--<footer class="post-footer">-->
+        <!--<p class="post-category">Ashion</p>-->
+        <!--<h3 class="post-title">Changing Style WIth Makeup</h3>-->
+        <!--</footer>-->
+        <!--</a>-->
+        <!--</article>-->
+        <!--<article class="col-md-6 col-lg-4 last-post-wr">-->
+        <!--<a href="13_Blog_Open_Widget.html" class="post-item no-decoration">-->
+        <!--<figure class="post-image" style="background-image: url('assets/img/placeholder/placeholder_700x600.jpg')">-->
+        <!--<div class="info">-->
+        <!--<p class="post-btn">View post</p>-->
+        <!--<p class="post-publish">-->
+        <!--<span class="publish-date">Dec 25, 2017</span>-->
+        <!--<span class="separator">·</span>-->
+        <!--<span class="publish-time">1 Minute</span>-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</figure>-->
+        <!--<footer class="post-footer">-->
+        <!--<p class="post-category">Agency</p>-->
+        <!--<h3 class="post-title">Perfect Fashion Show</h3>-->
+        <!--</footer>-->
+        <!--</a>-->
+        <!--</article>-->
+        <!--</div>-->
+        <!--</section>-->
+        <!-- End Last Post List -->
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <!--<div class="container">-->
         <!--<div class="soc-icons-wrap">-->
-            <!--<a href="#" class="soc-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
-            <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
-            <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
-            <!--<a href="#" class="soc-icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+        <!--<a href="#" class="soc-icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a>-->
 
         <!--</div>-->
         <!--<p class="copyright">&#169; 2018 Devon</p>-->
-    <!--</div>-->
-</footer>
-<!-- End Footer -->
-<!-- Jquery core -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/bootstrap-dropdown.min.js"></script>
-<script src="assets/js/bootstrap-select.min.js"></script>
-<!-- Slick Slider Core -->
+        <!--</div>-->
+    </footer>
+    <!-- End Footer -->
+    <!-- Jquery core -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap-dropdown.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <!-- Slick Slider Core -->
 
-<script src="assets/slick/slick.js"></script>
-<!-- All Sliders Initialization -->
-<script src='assets/js/slider.js'></script>
-<!-- Custom -->
-<script src='assets/js/common.js'></script>
+    <script src="assets/slick/slick.js"></script>
+    <!-- All Sliders Initialization -->
+    <script src='assets/js/slider.js'></script>
+    <!-- Custom -->
+    <script src='assets/js/common.js'></script>
 </body>
+
 </html>
