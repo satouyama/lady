@@ -308,13 +308,13 @@ img.aligncenter {
 }
 
 .model-attr .attr-value {
-  font-weight: 700;
+  font-weight: 500;
   color: white;
 }
 
 .model-attr .attrr-value {
   font-weight: 900;
-  color: white;
+  color: #f31f62;
   font-size: 20px !important;
 }
 

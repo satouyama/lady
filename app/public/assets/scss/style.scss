@@ -266,10 +266,17 @@ img.aligncenter {
 			margin-right: 0;
 		}
 	}
-	.attr-value{
-		font-weight: 700;
-		color: white;
+	.attr-itemm{
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #6e6e6e;
+		margin: 0 40px 0 0;
+		&:last-child{
+			margin-right: 0;
+		}
 	}
+
+
 }
 
 .slick-arrow{
